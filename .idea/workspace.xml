@@ -10,17 +10,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15058155-b841-4271-b5fd-6265fbdaf3c6" name="Default Changelist" comment="init" />
+    <list default="true" id="15058155-b841-4271-b5fd-6265fbdaf3c6" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simu/scenes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simu/scenes/scene1/Scene1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simu/scenes/scene1/scene1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simu/scenes/scene2/Scene2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simu/scenes/scene2/scene2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/background/bk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simu Desafio/gc/tutorial/chapt6/Texture$SmartGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simu Desafio/gc/tutorial/chapt6/Texture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simu/scenes/scene1/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simu/scenes/scene1/Scene1ControllerAux.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cq4So9OcWuydnVRAg3VP8ZBJwa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,65 +54,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/domain" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="profiler.calltree.filter" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/background" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/domain" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Texture" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gc.tutorial.chapt6.Texture" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.simu.scenes.Main" />
       <module name="Simu Desafio" />
       <option name="VM_PARAMETERS" value="--module-path /Library/Java/JavaVirtualMachines/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Simu Desafio" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Simu Desafio" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +96,10 @@
       <workItem from="1591309711171" duration="34000" />
       <workItem from="1591309853008" duration="161000" />
       <workItem from="1591310117316" duration="4193000" />
-      <workItem from="1591321871210" duration="676000" />
+      <workItem from="1591321871210" duration="2471000" />
+      <workItem from="1591760581967" duration="570000" />
+      <workItem from="1591935350834" duration="1522000" />
+      <workItem from="1592954314136" duration="9422000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1591322259530</created>
@@ -128,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591322380752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1591322652004</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591322652004</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1591322661496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591322661496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,41 +152,60 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591321959472">
+    <state x="184" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592970058591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="184" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592970058591" />
     <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/-197.-745.1360.745/0.23.1440.825@0.23.1440.825" timestamp="1591244899047" />
-    <state x="184" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1591321959472" />
+    <state x="184" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1591382984810" />
     <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1591300455645" />
-    <state x="457" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591321957591">
+    <state x="184" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.826@0.23.1440.826" timestamp="1591935932283" />
+    <state x="457" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592970054936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1591321957591" />
+    <state x="457" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592970054936" />
+    <state x="457" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1591382982868" />
     <state x="457" y="232" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1591300453810" />
     <state x="441" y="320" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591244015540">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="441" y="320" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-197.-745.1360.745/0.23.1440.825@0.23.1440.825" timestamp="1591244015540" />
-    <state width="1398" height="259" key="GridCell.Tab.0.bottom" timestamp="1591322272475">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="129" key="GridCell.Tab.0.bottom" timestamp="1593016483981">
+      <screen x="-197" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591322272475" />
+    <state width="1398" height="129" key="GridCell.Tab.0.bottom/-197.-1057.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1593015703127" />
+    <state width="1878" height="129" key="GridCell.Tab.0.bottom/-197.-1080.1920.1080/0.0.1440.900@-197.-1080.1920.1080" timestamp="1593016483981" />
+    <state width="1398" height="129" key="GridCell.Tab.0.bottom/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593014071119" />
+    <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591382989893" />
     <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1591322029401" />
-    <state width="1398" height="259" key="GridCell.Tab.0.center" timestamp="1591322272472">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1592954583738" />
+    <state width="1878" height="129" key="GridCell.Tab.0.center" timestamp="1593016483977">
+      <screen x="-197" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591322272472" />
+    <state width="1398" height="129" key="GridCell.Tab.0.center/-197.-1057.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1593015703111" />
+    <state width="1878" height="129" key="GridCell.Tab.0.center/-197.-1080.1920.1080/0.0.1440.900@-197.-1080.1920.1080" timestamp="1593016483977" />
+    <state width="1398" height="129" key="GridCell.Tab.0.center/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593014071115" />
+    <state width="1398" height="259" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591382989890" />
     <state width="1398" height="259" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1591322029389" />
-    <state width="1398" height="259" key="GridCell.Tab.0.left" timestamp="1591322272470">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1592954583737" />
+    <state width="1878" height="129" key="GridCell.Tab.0.left" timestamp="1593016483972">
+      <screen x="-197" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591322272470" />
+    <state width="1398" height="129" key="GridCell.Tab.0.left/-197.-1057.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1593015703100" />
+    <state width="1878" height="129" key="GridCell.Tab.0.left/-197.-1080.1920.1080/0.0.1440.900@-197.-1080.1920.1080" timestamp="1593016483972" />
+    <state width="1398" height="129" key="GridCell.Tab.0.left/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593014071113" />
+    <state width="1398" height="259" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591382989888" />
     <state width="1398" height="259" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1591322029387" />
-    <state width="1398" height="259" key="GridCell.Tab.0.right" timestamp="1591322272473">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1592954583736" />
+    <state width="1878" height="129" key="GridCell.Tab.0.right" timestamp="1593016483979">
+      <screen x="-197" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591322272473" />
+    <state width="1398" height="129" key="GridCell.Tab.0.right/-197.-1057.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1593015703117" />
+    <state width="1878" height="129" key="GridCell.Tab.0.right/-197.-1080.1920.1080/0.0.1440.900@-197.-1080.1920.1080" timestamp="1593016483979" />
+    <state width="1398" height="129" key="GridCell.Tab.0.right/-197.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593014071116" />
+    <state width="1398" height="259" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591382989892" />
     <state width="1398" height="259" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1591322029390" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1592954583738" />
     <state x="367" y="156" key="NewModule_or_Project.wizard" timestamp="1591321080265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -196,10 +216,10 @@
     <state x="229" y="23" width="1024" height="825" key="SettingsEditor/-197.-745.1360.745/0.23.1440.825@0.23.1440.825" timestamp="1591245068565" />
     <state x="229" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591319788295" />
     <state x="229" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1591250475147" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591322406996">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591322670743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591322406996" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591322670743" />
     <state x="515" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591322369800">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.text.Font?>
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene1.Scene1Controller">
+<children>
+    <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk.jpg');">
+        <children>
+            <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadSecond" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="¡Empecemos!">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="WHITE" layoutX="243.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="328.13671875">
+             <font>
+                    <Font name="Lato Black" size="60.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="243.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Método de los Elementos" textAlignment="CENTER" wrappingWidth="328.13671875">
+                <font>
+                    <Font name="Lato Black" size="55.0" />
+                </font>
+            </Text>
+            <Text fill="WHITE" layoutX="243.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finitos en 3D" textAlignment="CENTER" wrappingWidth="328.13671875">
+                <font>
+                    <Font name="Lato Black" size="55.0" />
+                </font>
+            </Text>
+
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>

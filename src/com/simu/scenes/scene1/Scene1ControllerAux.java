@@ -18,7 +18,7 @@ import javafx.scene.transform.Transform;
 import javafx.stage.Stage;
 
 
-public class Texture extends Application {
+public class Scene1ControllerAux extends Application {
 
   private static final float WIDTH = 800;
   private static final float HEIGHT = 600;
