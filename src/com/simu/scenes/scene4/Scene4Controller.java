@@ -1,6 +1,5 @@
-package com.simu.scenes.scene1;
+package com.simu.scenes.scene4;
 
-import com.simu.scenes.scene2.Scene2Controller;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
@@ -14,13 +13,13 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;
 import javafx.util.Duration;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Scene1Controller implements Initializable {
+public class Scene4Controller implements Initializable {
+
 
     @FXML
     private Button button;
@@ -36,7 +35,7 @@ public class Scene1Controller implements Initializable {
 
     @FXML
     private void loadSecond(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene2/scene2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene4/scene41.fxml"));
         Scene scene = button.getScene();
         root.translateYProperty().set(scene.getHeight());
 
@@ -51,8 +50,10 @@ public class Scene1Controller implements Initializable {
         });
         timeline.play();
 
+        /*
+        Scene3Controller scene3 = new Scene3Controller();
+        Stage stage = new Stage();
+        scene3.start(stage);*/
     }
-
-
 
 }

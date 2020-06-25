@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 <?import javafx.scene.text.Font?>
-<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene1.Scene1Controller">
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene1.Scene1Controller">
 <children>
     <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk.jpg');">
         <children>
@@ -15,17 +18,17 @@
                     <Font size="18.0" />
                 </font>
             </Button>
-            <Text fill="WHITE" layoutX="243.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="328.13671875">
+            <Text fill="#831818" layoutX="206.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="383.09275817871094">
              <font>
-                    <Font name="Lato Black" size="60.0" />
+                    <Font name="Gill Sans" size="79.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="243.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Método de los Elementos" textAlignment="CENTER" wrappingWidth="328.13671875">
+            <Text fill="#3dd07a" layoutX="243.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Método de los Elementos" textAlignment="CENTER" wrappingWidth="328.13671875">
                 <font>
                     <Font name="Lato Black" size="55.0" />
                 </font>
             </Text>
-            <Text fill="WHITE" layoutX="243.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finitos en 3D" textAlignment="CENTER" wrappingWidth="328.13671875">
+            <Text fill="#3cd07a" layoutX="243.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finitos en 3D" textAlignment="CENTER" wrappingWidth="328.13671875">
                 <font>
                     <Font name="Lato Black" size="55.0" />
                 </font>

@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.Font?>
 
-<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene2.Scene2Controller">
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene6.Scene6Controller">
     <children>
         <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk1.jpg');">
             <children>
@@ -24,16 +24,16 @@
                         <Font name="Chalkduster" size="60.0" />
                     </font>
                 </Text>
-            <ImageView fitHeight="169.0" fitWidth="362.0" layoutX="240.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../resources/model/model.png" />
-               </image>
-            </ImageView>
-            <Text fill="#40bed7" layoutX="261.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donde A y B son incognitas escalares" textAlignment="CENTER" wrappingWidth="303.13671875">
-               <font>
-                  <Font name="Chalkduster" size="26.0" />
-               </font>
-            </Text>
+                <ImageView fitHeight="169.0" fitWidth="362.0" layoutX="240.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../resources/model/model.png" />
+                    </image>
+                </ImageView>
+                <Text fill="#40bed7" layoutX="261.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donde A y B son incognitas escalares" textAlignment="CENTER" wrappingWidth="303.13671875">
+                    <font>
+                        <Font name="Chalkduster" size="26.0" />
+                    </font>
+                </Text>
 
             </children>
         </AnchorPane>

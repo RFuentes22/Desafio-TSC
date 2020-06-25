@@ -1,6 +1,8 @@
-package com.simu.scenes.scene1;
+package com.simu.scenes.scene4;
 
-import com.simu.scenes.scene2.Scene2Controller;
+
+import com.simu.scenes.scene3.Scene3Controller;
+import com.simu.scenes.scene5.Scene5Controller;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
@@ -20,7 +22,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Scene1Controller implements Initializable {
+public class Scene41Controller implements Initializable {
+
 
     @FXML
     private Button button;
@@ -36,23 +39,10 @@ public class Scene1Controller implements Initializable {
 
     @FXML
     private void loadSecond(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene2/scene2.fxml"));
-        Scene scene = button.getScene();
-        root.translateYProperty().set(scene.getHeight());
 
-        parentContainer.getChildren().add(root);
-
-        Timeline timeline = new Timeline();
-        KeyValue kv = new KeyValue(root.translateYProperty(), 0, Interpolator.EASE_IN);
-        KeyFrame kf = new KeyFrame(Duration.seconds(1), kv);
-        timeline.getKeyFrames().add(kf);
-        timeline.setOnFinished(t -> {
-            parentContainer.getChildren().remove(anchorRoot);
-        });
-        timeline.play();
-
+        Scene5Controller scene5 = new Scene5Controller();
+        Stage stage = (Stage) button.getScene().getWindow();
+        scene5.start(stage);
     }
-
-
 
 }
