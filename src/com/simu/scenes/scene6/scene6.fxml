@@ -19,21 +19,26 @@
                         <Font size="18.0" />
                     </font>
                 </Button>
-                <Text fill="#0ba453" layoutX="237.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Modelo a utilizar" textAlignment="CENTER" wrappingWidth="326.13671875">
+                <Text fill="#0ba453" layoutX="115.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Tabla de Conectividades" textAlignment="CENTER" wrappingWidth="618.6134185791016">
                     <font>
-                        <Font name="Chalkduster" size="60.0" />
+                        <Font name="Chalkduster" size="47.0" />
                     </font>
                 </Text>
-                <ImageView fitHeight="169.0" fitWidth="362.0" layoutX="240.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="307.0" fitWidth="247.0" layoutX="456.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../resources/model/model.png" />
+                        <Image url="@../../../../resources/cube/conectivityTable.jpg" />
                     </image>
                 </ImageView>
-                <Text fill="#40bed7" layoutX="261.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donde A y B son incognitas escalares" textAlignment="CENTER" wrappingWidth="303.13671875">
+                <Text fill="#40bed7" layoutX="209.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elementos:17    Nodos:10" textAlignment="CENTER" wrappingWidth="417.27394104003906">
                     <font>
                         <Font name="Chalkduster" size="26.0" />
                     </font>
                 </Text>
+            <ImageView fitHeight="290.0" fitWidth="292.0" layoutX="74.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../resources/cube/meshf.jpg" />
+               </image>
+            </ImageView>
 
             </children>
         </AnchorPane>

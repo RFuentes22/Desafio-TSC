@@ -91,7 +91,7 @@ public class Scene5Controller extends Application {
 
                 Parent root = null;
                 try {
-                    root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene4/scene4.fxml"));
+                    root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene6/scene6.fxml"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene7.Scene7ControllerMEF">
+    <children>
+        <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk1.jpg');">
+            <children>
+                <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loaddg2" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <Text fill="#0ba453" layoutX="115.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Definiendo Componentes de Matrices" textAlignment="CENTER" wrappingWidth="618.6134185791016">
+                    <font>
+                        <Font name="Chalkduster" size="34.0" />
+                    </font>
+                </Text>
+            <ImageView fitHeight="294.0" fitWidth="353.0" layoutX="239.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../resources/mef/solg1.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#40bed7" layoutX="54.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resolviendo g" textAlignment="CENTER" wrappingWidth="280.2395324707031">
+               <font>
+                  <Font name="Chalkduster" size="17.0" />
+               </font>
+            </Text>
+
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

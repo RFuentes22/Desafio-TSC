@@ -42,6 +42,7 @@ public class Scene41Controller implements Initializable {
 
         Scene5Controller scene5 = new Scene5Controller();
         Stage stage = (Stage) button.getScene().getWindow();
+        //Stage stage = new Stage();
         scene5.start(stage);
     }
 
