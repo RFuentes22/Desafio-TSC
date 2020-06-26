@@ -34,7 +34,11 @@
                   <Image url="@../../../../../resources/mef/galerkin.jpg" />
                </image>
             </ImageView>
-
+                <Button fx:id="button1" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#loadBeforemef4" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
             </children>
         </AnchorPane>
     </children>

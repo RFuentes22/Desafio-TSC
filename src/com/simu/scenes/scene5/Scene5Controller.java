@@ -1,20 +1,15 @@
 package com.simu.scenes.scene5;
 
-
 import javafx.application.Application;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.ScrollEvent;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Box;
@@ -29,12 +24,6 @@ public class Scene5Controller extends Application {
 
     private static final float WIDTH = 800;
     private static final float HEIGHT = 600;
-    private BorderPane layout;
-    //private Scene scene2;
-    @FXML
-    private Button button;
-    @FXML
-    private AnchorPane container;
 
     private double anchorX, anchorY;
     private double anchorAngleX = 0;
@@ -45,9 +34,6 @@ public class Scene5Controller extends Application {
 
     @Override
     public void start(Stage primaryStage) throws FileNotFoundException {
-        layout=new BorderPane();
-        //  primaryStage.close();
-
         Box box = prepareBox();
 
         com.simu.scenes.scene5.Scene5Controller.SmartGroup group = new com.simu.scenes.scene5.Scene5Controller.SmartGroup();
@@ -55,7 +41,6 @@ public class Scene5Controller extends Application {
 
         Camera camera = new PerspectiveCamera();
         Scene scene = new Scene(group, WIDTH, HEIGHT);
-        // scene.setFill(Color.SILVER);
 
         Image x = new Image("/resources/background/mesh.jpg");
         ImagePattern pattern = new ImagePattern(x);
@@ -68,22 +53,22 @@ public class Scene5Controller extends Application {
 
         initMouseControl(group, scene, primaryStage);
 
-        //scene2 = new Scene(layout,WIDTH,HEIGHT);
-
-        // create a image
-        Image i = new Image("/resources/black.jpg");
-        ImageView iw = new ImageView(i);
-
+        //button next
         Button btnext = new Button("Next");
         btnext.setPrefSize(45,-50);
         btnext.setRotationAxis(box.getRotationAxis());
-        //btnext.setBackground();
         btnext.setLayoutX(40);
         btnext.setLayoutY(38);
 
-        //group.getChildrenUnmodifiable().add(btnext);
+        //button before
+        Button btnbef = new Button("Atras");
+        btnbef.setPrefSize(50,-50);
+        btnbef.setLayoutX(-85);
+        btnbef.setLayoutY(-63);
+
+        group.getChildren().add(btnbef);
         group.getChildren().add(btnext);
-        //group.getChildrenUnmodifiable().set(1,btnext);
+
 
         btnext.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -102,6 +87,22 @@ public class Scene5Controller extends Application {
             }
         });
 
+        btnbef.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+                Parent root = null;
+                try {
+                    root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene4/scene41.fxml"));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Scene scene = new Scene(root);
+
+                primaryStage.setScene(scene);
+
+            }
+        });
 
         primaryStage.setTitle("MEF 3D");
         primaryStage.setScene(scene);

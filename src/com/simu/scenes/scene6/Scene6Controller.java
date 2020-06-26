@@ -1,6 +1,7 @@
 package com.simu.scenes.scene6;
 
 
+import com.simu.scenes.scene5.Scene5Controller;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
@@ -14,8 +15,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -52,10 +53,14 @@ public class Scene6Controller implements Initializable {
         });
         timeline.play();
 
-        /*
-        Scene3Controller scene3 = new Scene3Controller();
-        Stage stage = new Stage();
-        scene3.start(stage);*/
+    }
+
+    @FXML
+    private void loadBefore(ActionEvent event) throws IOException {
+        Scene5Controller scene5 = new Scene5Controller();
+        Stage stage = (Stage) button.getScene().getWindow();
+        scene5.start(stage);
+
     }
 
 }

@@ -24,9 +24,9 @@
                         <Font name="Chalkduster" size="34.0" />
                     </font>
                 </Text>
-            <ImageView fitHeight="201.0" fitWidth="501.0" layoutX="166.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="159.0" fitWidth="525.0" layoutX="142.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/mef/solK2.jpg" />
+                  <Image url="@../../../../../resources/mef/solk2.jpg" />
                </image>
             </ImageView>
             <Text fill="#40bed7" layoutX="101.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resultado K" textAlignment="CENTER" wrappingWidth="280.2395324707031">
@@ -34,7 +34,11 @@
                   <Font name="Chalkduster" size="17.0" />
                </font>
             </Text>
-
+                <Button fx:id="button1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadBeforemefdk1" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
             </children>
         </AnchorPane>
     </children>

@@ -24,17 +24,21 @@
                         <Font name="Chalkduster" size="34.0" />
                     </font>
                 </Text>
-            <ImageView fitHeight="288.0" fitWidth="325.0" layoutX="251.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="332.0" fitWidth="349.0" layoutX="227.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../resources/mef/solC3.jpg" />
                </image>
             </ImageView>
-            <Text fill="#40bed7" layoutX="76.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para poder expresar nuestras variables (x,y,z) respecto a las variables del mundoisoparametrico (epsilon, eta,psi), necesitamos realizar una inter" textAlignment="CENTER" wrappingWidth="652.0198059082031">
+            <Text fill="#40bed7" layoutX="74.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para poder expresar nuestras variables (x,y,z) respecto a las variables del mundoisoparametrico (epsilon, eta,psi), necesitamos realizar una inter" textAlignment="CENTER" wrappingWidth="652.0198059082031">
                <font>
                   <Font name="Chalkduster" size="17.0" />
                </font>
             </Text>
-
+                <Button fx:id="button1" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#loadBeforemefd2" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
             </children>
         </AnchorPane>
     </children>

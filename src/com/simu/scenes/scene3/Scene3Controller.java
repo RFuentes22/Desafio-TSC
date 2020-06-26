@@ -30,12 +30,6 @@ public class Scene3Controller extends Application {
 
     private static final float WIDTH = 800;
     private static final float HEIGHT = 600;
-    private BorderPane layout;
-    //private Scene scene2;
-    @FXML
-    private Button button;
-    @FXML
-    private AnchorPane container;
 
     private double anchorX, anchorY;
     private double anchorAngleX = 0;
@@ -46,9 +40,6 @@ public class Scene3Controller extends Application {
 
     @Override
     public void start(Stage primaryStage) throws FileNotFoundException {
-        layout=new BorderPane();
-      //  primaryStage.close();
-
         Box box = prepareBox();
 
         Scene3Controller.SmartGroup group = new Scene3Controller.SmartGroup();
@@ -56,7 +47,6 @@ public class Scene3Controller extends Application {
 
         Camera camera = new PerspectiveCamera();
         Scene scene = new Scene(group, WIDTH, HEIGHT);
-       // scene.setFill(Color.SILVER);
 
         Image x = new Image("/resources/background/dominio.jpg");
         ImagePattern pattern = new ImagePattern(x);
@@ -69,22 +59,20 @@ public class Scene3Controller extends Application {
 
         initMouseControl(group, scene, primaryStage);
 
-        //scene2 = new Scene(layout,WIDTH,HEIGHT);
-
-        // create a image
-        Image i = new Image("/resources/black.jpg");
-        ImageView iw = new ImageView(i);
-
+        //button next
         Button btnext = new Button("Next");
         btnext.setPrefSize(45,-50);
-        btnext.setRotationAxis(box.getRotationAxis());
-        //btnext.setBackground();
         btnext.setLayoutX(40);
         btnext.setLayoutY(38);
 
-        //group.getChildrenUnmodifiable().add(btnext);
+        //button before
+        Button btnbef = new Button("Atras");
+        btnbef.setPrefSize(50,-50);
+        btnbef.setLayoutX(-85);
+        btnbef.setLayoutY(-63);
+
+        group.getChildren().add(btnbef);
         group.getChildren().add(btnext);
-        //group.getChildrenUnmodifiable().set(1,btnext);
 
         btnext.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -93,6 +81,23 @@ public class Scene3Controller extends Application {
                 Parent root = null;
                 try {
                     root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene4/scene4.fxml"));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Scene scene = new Scene(root);
+
+                primaryStage.setScene(scene);
+
+            }
+        });
+
+        btnbef.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+                Parent root = null;
+                try {
+                    root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene2/scene2.fxml"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

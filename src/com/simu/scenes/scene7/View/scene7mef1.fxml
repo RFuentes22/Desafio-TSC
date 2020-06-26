@@ -36,6 +36,13 @@
             </ImageView>
 
             </children>
+           <children>
+               <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBeforemef" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                   <font>
+                       <Font size="18.0" />
+                   </font>
+               </Button>
+           </children>
         </AnchorPane>
     </children>
 </StackPane>

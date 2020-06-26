@@ -34,7 +34,11 @@
                   <Font name="Chalkduster" size="17.0" />
                </font>
             </Text>
-
+                <Button fx:id="button1" layoutX="22.0" layoutY="17.0" mnemonicParsing="false" onAction="#loadBeforemefdf2" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
             </children>
         </AnchorPane>
     </children>

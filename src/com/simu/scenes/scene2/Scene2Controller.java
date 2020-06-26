@@ -36,6 +36,25 @@ public class Scene2Controller implements Initializable {
     }
 
     @FXML
+    private void loadBefore(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene1/scene1.fxml"));
+        Scene scene = button.getScene();
+        root.translateYProperty().set(scene.getHeight());
+
+        parentContainer.getChildren().add(root);
+
+        Timeline timeline = new Timeline();
+        KeyValue kv = new KeyValue(root.translateYProperty(), 0, Interpolator.EASE_IN);
+        KeyFrame kf = new KeyFrame(Duration.seconds(1), kv);
+        timeline.getKeyFrames().add(kf);
+        timeline.setOnFinished(t -> {
+            parentContainer.getChildren().remove(anchorRoot);
+        });
+        timeline.play();
+
+    }
+
+    @FXML
     private void loadSecond(ActionEvent event) throws IOException {
 
         Scene3Controller scene3 = new Scene3Controller();
