@@ -215,6 +215,11 @@ public class Scene7ControllerMEF implements Initializable {
         root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene7/View/scene7mefdL1.fxml"));
         transicion(root);
     }
+    @FXML
+    private void loadscn8(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene8/scene8.fxml"));
+        transicion(root);
+    }
     //before
     @FXML
     private void loadBeforescn6(ActionEvent event) throws IOException {
@@ -376,11 +381,6 @@ public class Scene7ControllerMEF implements Initializable {
         root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene7/View/scene7mefdg3.fxml"));
         transicion2(root);
     }
-    @FXML
-    private void loadBeforemefdfg4(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("/com/simu/scenes/scene7/View/scene7mefdg4.fxml"));
-    }
-
 
 
 
