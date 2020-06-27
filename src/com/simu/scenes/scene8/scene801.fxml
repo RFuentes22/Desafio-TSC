@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene8.Scene8Controller">
+<children>
+    <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk5.jpg');">
+        <children>
+            <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadscn81" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#0ba453" layoutX="115.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Paso 7:Ensamblaje" textAlignment="CENTER" wrappingWidth="618.6134185791016">
+                <font>
+                    <Font name="Chalkduster" size="34.0" />
+                </font>
+            </Text>
+            <ImageView fitHeight="251.0" fitWidth="293.0" layoutX="315.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../resources/assembly/conectivityTable.gif" />
+                </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBeforescn8" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#b5ad1f" layoutX="83.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pero primero nos basaremos en nuestra tabla de conectividades. Tomando los dos primeros elementos" textAlignment="CENTER" wrappingWidth="675.2341918945312">
+               <font>
+                  <Font name="Chalkduster" size="21.0" />
+               </font>
+            </Text>
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>

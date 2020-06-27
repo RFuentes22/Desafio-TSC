@@ -11,34 +11,35 @@
 <?import javafx.scene.text.Font?>
 
 <StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene9.Scene9Controller">
-    <children>
-        <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk1.jpg');">
-            <children>
-                <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadscn9end" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
-                    <font>
-                        <Font size="18.0" />
-                    </font>
-                </Button>
-                <Text fill="#0ba453" layoutX="115.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Fin" textAlignment="CENTER" wrappingWidth="618.6134185791016">
-                    <font>
-                        <Font name="Chalkduster" size="34.0" />
-                    </font>
-                </Text>
-                <Text fill="#40bed7" layoutX="54.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Debido a que los subdominios (x,y,z) no tienen las mismas característicasgeométricas, será útil construirlos a partir de un elemento ideal a través deuna transformación con (ε,η,ψ) en un proceso que denominamosinterpolación de la geometría en el mundo “ideal” isoparametrico." textAlignment="CENTER" wrappingWidth="684.3405151367188">
-                    <font>
-                        <Font name="Chalkduster" size="17.0" />
-                    </font>
-                </Text>
-
-
-            </children>
-            <children>
-                <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBefore9" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
-                    <font>
-                        <Font size="18.0" />
-                    </font>
-                </Button>
-            </children>
-        </AnchorPane>
-    </children>
+<children>
+    <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk4.jpg');">
+        <children>
+            <Button fx:id="button" layoutX="304.0" layoutY="370.0" mnemonicParsing="false" onAction="#loadBeforeinit" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Inicio">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#a32f0b" layoutX="120.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Este fue el Metodo de los Elementos Finitos en 3D" textAlignment="CENTER" wrappingWidth="618.6134185791016">
+                <font>
+                    <Font name="Chalkduster" size="34.0" />
+                </font>
+            </Text>
+            <Text fill="#b5ad1f" layoutX="255.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puedes empezar de nuevo" textAlignment="CENTER" wrappingWidth="306.39794921875">
+                <font>
+                    <Font name="Chalkduster" size="30.0" />
+                </font>
+            </Text>
+            <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadscn9N2" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Button fx:id="button2" layoutX="303.0" layoutY="493.0" mnemonicParsing="false" onAction="#end" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Salir">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+        </children>
+    </AnchorPane>
+</children>
 </StackPane>

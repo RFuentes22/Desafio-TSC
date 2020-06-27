@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene8.Scene8Controller">
+<children>
+    <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk5.jpg');">
+        <children>
+            <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadscn82" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#0ba453" layoutX="115.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Paso 7:Ensamblaje" textAlignment="CENTER" wrappingWidth="618.6134185791016">
+                <font>
+                    <Font name="Chalkduster" size="34.0" />
+                </font>
+            </Text>
+            <ImageView fitHeight="190.0" fitWidth="415.0" layoutX="179.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../resources/assembly/element1.gif" />
+                </image>
+            </ImageView>
+            <Text fill="#24c71c" layoutX="36.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Primer elemento." textAlignment="CENTER" wrappingWidth="286.4771728515625">
+                <font>
+                    <Font name="Chalkduster" size="26.0" />
+                </font>
+            </Text>
+            <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadscn801" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#b5ad1f" layoutX="81.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primero ensamblamos nuestras matrices locales, en las cuales tenemos que indicarlos índices de nuestras matrices locales, para ello se utilizan las formulas mostradasanteriormente." textAlignment="CENTER" wrappingWidth="675.2341918945312">
+               <font>
+                  <Font name="Chalkduster" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#b5ad1f" layoutX="36.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En las primeras 4 celdas se ubicarán los nodos del elemento, basándonos en la tablade conectividades y las siguientes i+n. Recordar n=10" textAlignment="CENTER" wrappingWidth="747.7246551513672">
+               <font>
+                  <Font name="Chalkduster" size="17.0" />
+               </font>
+            </Text>
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>

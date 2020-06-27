@@ -11,34 +11,41 @@
 <?import javafx.scene.text.Font?>
 
 <StackPane fx:id="parentContainer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.simu.scenes.scene8.Scene8Controller">
-    <children>
-        <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk1.jpg');">
-            <children>
-                <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadscn9" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
-                    <font>
-                        <Font size="18.0" />
-                    </font>
-                </Button>
-                <Text fill="#0ba453" layoutX="115.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Paso 7:Ensamblaje" textAlignment="CENTER" wrappingWidth="618.6134185791016">
-                    <font>
-                        <Font name="Chalkduster" size="34.0" />
-                    </font>
-                </Text>
-                <Text fill="#40bed7" layoutX="54.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Debido a que los subdominios (x,y,z) no tienen las mismas característicasgeométricas, será útil construirlos a partir de un elemento ideal a través deuna transformación con (ε,η,ψ) en un proceso que denominamosinterpolación de la geometría en el mundo “ideal” isoparametrico." textAlignment="CENTER" wrappingWidth="684.3405151367188">
-                    <font>
-                        <Font name="Chalkduster" size="17.0" />
-                    </font>
-                </Text>
+<children>
+    <AnchorPane id="AnchorPane" fx:id="anchorRoot" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/resources/background/bk5.jpg');">
+        <children>
+            <Button fx:id="button" layoutX="299.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadscn801" prefHeight="48.0" prefWidth="202.0" style="-fx-background-image: white;" text="Siguiente">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#0ba453" layoutX="105.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Paso 7:Ensamblaje" textAlignment="CENTER" wrappingWidth="618.6134185791016">
+                <font>
+                    <Font name="Chalkduster" size="34.0" />
+                </font>
+            </Text>
+            <Text fill="#d7d6c8" layoutX="75.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El ensamblaje en 3D es muy complejo realizarlo a mano, para ello se utiliza unsoftware que lo realiza automáticamente, pero en esta sección se explicara demanera general, ya que este proceso es mecánico y es igual para cada elemento. Por lo cual solo se realizara con dos elementos" textAlignment="CENTER" wrappingWidth="675.2341918945312">
+                <font>
+                    <Font name="Chalkduster" size="17.0" />
+                </font>
+            </Text>
+            <ImageView fitHeight="145.0" fitWidth="244.0" layoutX="315.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../../../../resources/assembly/distri.jpg" />
+                </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBefore" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Text fill="#b5ad1f" layoutX="71.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Así es como se distribuirá nuestras incógnitas" textAlignment="CENTER" wrappingWidth="432.44178771972656">
+               <font>
+                  <Font name="Chalkduster" size="17.0" />
+               </font>
+            </Text>
 
-
-            </children>
-            <children>
-                <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBefore" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">
-                    <font>
-                        <Font size="18.0" />
-                    </font>
-                </Button>
-            </children>
-        </AnchorPane>
-    </children>
+        </children>
+    </AnchorPane>
+</children>
 </StackPane>
