@@ -26,7 +26,7 @@
             </Text>
             <ImageView fitHeight="251.0" fitWidth="293.0" layoutX="315.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../resources/assembly/conectivityTable.gif" />
+                    <Image url="@../../../../resources/assembly/conectivityTable.jpg" />
                 </image>
             </ImageView>
             <Button fx:id="button1" layoutX="28.0" layoutY="20.0" mnemonicParsing="false" onAction="#loadBeforescn8" prefHeight="39.0" prefWidth="121.0" style="-fx-background-color: darkblue; -fx-background-image: blue;" text="Atras" textFill="WHITE">

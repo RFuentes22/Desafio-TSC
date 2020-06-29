@@ -26,7 +26,7 @@
             </Text>
             <ImageView fitHeight="190.0" fitWidth="415.0" layoutX="179.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
                 <image>
-                    <Image url="@../../../../resources/assembly/element2.gif" />
+                    <Image url="@../../../../resources/assembly/element2.jpg" />
                 </image>
             </ImageView>
             <Text fill="#24c71c" layoutX="36.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="2.0" text="Segundo elemento." textAlignment="CENTER" wrappingWidth="286.4771728515625">

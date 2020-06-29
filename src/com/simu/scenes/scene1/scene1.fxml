@@ -18,17 +18,12 @@
                     <Font size="18.0" />
                 </font>
             </Button>
-            <Text fill="#831818" layoutX="206.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="383.09275817871094">
+            <Text fill="#831818" layoutX="131.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="511.4435272216797">
              <font>
                     <Font name="Gill Sans" size="79.0" />
                 </font>
             </Text>
-            <Text fill="#3dd07a" layoutX="243.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Método de los Elementos" textAlignment="CENTER" wrappingWidth="328.13671875">
-                <font>
-                    <Font name="Lato Black" size="55.0" />
-                </font>
-            </Text>
-            <Text fill="#3cd07a" layoutX="243.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finitos en 3D" textAlignment="CENTER" wrappingWidth="328.13671875">
+            <Text fill="#3dd07a" layoutX="243.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Método de los Elementos Finitos en 3D" textAlignment="CENTER" wrappingWidth="328.13671875">
                 <font>
                     <Font name="Lato Black" size="55.0" />
                 </font>
